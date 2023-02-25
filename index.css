@@ -1,0 +1,97 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Article Section Styles */
+  #article {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .byline, .date {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .intro {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #eee;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  footer li {
+    margin-right: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  img{
+    border-radius: 20px;
+  }
+  
